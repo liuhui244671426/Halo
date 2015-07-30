@@ -1,0 +1,11 @@
+{
+    "name": "liuhui/halo",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "liu hui",
+            "email": "liuhui244671426@126.com"
+        }
+    ],
+    "require": {}
+}
