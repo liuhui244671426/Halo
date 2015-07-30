@@ -1,11 +1,17 @@
 {
     "name": "liuhui/halo",
-    "license": "BSD",
+    "license": "MIT",
+	
+	"type": "library",
+	"keywords": ["halo"],
+	"homepage": "",
     "authors": [
         {
             "name": "liu hui",
             "email": "liuhui244671426@126.com"
         }
     ],
-    "require": {}
+    "require": {
+		"php":">=5.3"
+	}
 }
