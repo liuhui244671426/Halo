@@ -1,4 +1,5 @@
 <?php
+namespace Our\halo;
 
 defined('HALO_LOG_DEBUG') || define('HALO_LOG_DEBUG', 0);
 defined('HALO_LOG_WARNNING') || define('HALO_LOG_WARNNING', 1);
@@ -71,7 +72,7 @@ class HaloLogger
     {
         $date = date('Y-m-d');
         $hour = date('H');
-        $filepath = $_SERVER['DOCUMENT_ROOT'] . '/../../logs/' . $_ENV['APP_NAME'] . '/' . $date . '/';
+        $filepath = $_SERVER['DOCUMENT_ROOT'] . '/../../logs/' . $date . '/';
         //$path = ensureFilePath($filepath, true);
         if (strlen($domain) > 0) {
             $filepath = sprintf('%s%s-%02d.%s', $filepath, $domain, $hour, $ext);
